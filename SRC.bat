@@ -192,13 +192,13 @@ goto :menu
 cls
 echo.    %g%[+]%g% %w%Spoofing...%w%
 timeout /t 3 /nobreak > NUL
-cd "C:\Program Files\Windows NT\Accessories\en-US"
-AMIDEWINx64.EXE /SU auto >nul 2>&1
+cd C:\Program Files\Windows NT\Accessories\en-US
+AMIDEWINx64.EXE /SU auto 
 
 timeout /nobreak /t 2 >nul
 
-cd "C:\Program Files\Windows NT\Accessories\en-US"
-AMIDEWINx64.EXE /BS auto >nul 2>&1
+cd C:\Program Files\Windows NT\Accessories\en-US
+AMIDEWINx64.EXE /BS auto 
 timeout /t 3 /nobreak > NUL
 cls
 echo.
